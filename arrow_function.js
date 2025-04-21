@@ -7,7 +7,7 @@ console.log(result)
 const calculate = x =>{
     let numb = x+45
     let result = numb*2
-    return result;
+    return result
 }
 const CallFunc =calculate(2)
 console.log(CallFunc)

@@ -4,5 +4,5 @@ const electronicAssets =[
     {name:'PC',brand:'Gygabyte',prize:80000},
     {name:'Vape',brand:'Argus',prize:5000},
 ]
-const Brands = electronicAssets.map(assest=>assest.prize)
-console.log(Brands) //map returns.
+const BrandPrice = electronicAssets.map(amount=>amount.prize)
+console.log(BrandPrice) //map returns.
