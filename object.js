@@ -5,6 +5,7 @@ const person={
     'Favourite food' : 'Kacchi',
     UsingDevices : ['Laptop','PC','Argus','Cell phone','Watch'],
 }
+console.log([...person])
 
 for (const key in person){
     const value =person[key]
